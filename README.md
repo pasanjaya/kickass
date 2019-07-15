@@ -1,4 +1,6 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Ammoniya [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+#### file hierarchy
+![standard-unix-filesystem-hierarchy](https://user-images.githubusercontent.com/20130001/61242287-f3c63e80-a762-11e9-8c45-8446392fbe99.png)
 #### file navigation
 ```
 cd
