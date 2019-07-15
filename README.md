@@ -69,10 +69,11 @@ ps -le			(Ex - sudo ps -le | grep apache2)
 			These guidelines are called niceness or nice value
 					range - (-20 to 19)
 					* The lower the number the more priority that task gets
-					* niceness value is high number like 19 the task will be set to the lowest priority 
-          * -20 is highest, 0 default and +19 is lowest
-          * PR = 20 + NI
-          * default nice in /etc/security/limits.conf
+					* niceness value is high number like 19 the task will be 
+					set to the lowest priority 
+         			        * -20 is highest, 0 default and +19 is lowest
+                                        * PR = 20 + NI
+                                        * default nice in /etc/security/limits.conf
 	TTY		- terminal type
 ps -p pid1,pid2,pid3....
 ps -C <program or service or script name>
