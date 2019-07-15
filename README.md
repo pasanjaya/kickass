@@ -108,6 +108,9 @@ rm <hard link>
 ln -s <source> <link>
 rm <soft link>
 
+stat <dir>    - inode info of dir
+stat -f <dir> - inode info of file system
+
 #disk file system
 df -h     - human readable
 df -m     - in MB
@@ -140,8 +143,53 @@ sort -n -r <file name>
 wc -l   - lines
 wc -w   - words
 wc -m   - characters
+
+dpkg -i <pkg>
+tar -xvzf <*.tar.gz>
+
+apt-get install/update/upgrade/remove/list/search <pkg from repo>
+add-apt-repository ppa:<pkg>/ppa
+```
+#### permissions and security
+```
+whoami 
+
+uname
+uname -a
+
+chmod , umask (etc/bashrc or etc/profile)
+
+sudo chown $USER:[$USERGROUP] <file>
+sudo chown -R $USER:[$USERGROUP] <dir>
+
+adduser <user name>
+adduser -d <custom home path> <user name>
+adduser -M <user name> # create user without home directory
+adduser -u <uid> <user name>
+adduser -u <uid> -g <gid> <user name>
+adduser -G <group/s> <username>
+
+w - who logged in 
+w <user name>
+
+```
+#### config
+```
+~/.profile - set path etc
+~/. bashrc - alias etc
+source active ~/.bashrc or ~/.profile
 ```
 
+### env
+```
+printenv - view environment variables
+```
+* USER – your current username.
+* SHELL – the path to the current command shell (for example, /bin/bash).
+* PWD – the current working directory.
+* HOSTNAME – the hostname of the computer.
+* HOME – your home directory.
+* MAIL – the location of the user's mail spool.
 
 
 
